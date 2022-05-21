@@ -1,0 +1,558 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"); */
+@font-face {
+  font-family: Cubano;
+  src: url(Cubano.ttf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cubano";
+}
+
+
+
+
+
+.accordion-button:not(.collapsed){
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 0%) !important;
+}
+
+/* *::-webkit-media-controls-start-playback-button {
+  display: none!important;
+  -webkit-appearance: none;
+} */
+
+.button_nav {
+  border: none !important;
+  
+  
+}
+.buttonGame:active{
+  opacity: 0.3;
+}
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: none;
+  box-shadow: none !important;
+}
+/* .marquee{
+  width:1000px;
+} */
+
+
+/* .marquee .text {
+  display: inline-block;
+  padding-left: .9rem;
+  text-indent: 0;
+  -webkit-animation: marquee 4s linear infinite;
+  animation: marquee 4s linear infinite;
+  font-weight: 500;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  color: #f2f2f2;
+  font-weight: 800;
+  margin: 0%;
+  width:100%;
+} */
+/* @keyframes marquee {
+  0% {
+    -webkit-transform: translate(-100%, 0);
+    transform: translate(-100%, 0);
+  }
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+} */
+
+.main {
+  position: relative;
+  background: 'transparent';
+  
+}
+.nav-link {
+  font-family: "Cubano";
+  /* color: #000 !important; */
+  font-weight: 800;
+  font-size: 23px;
+}
+
+.hedar_img {
+  width: 95px;
+  margin-top: 20px;
+}
+.hedar_s {
+  background: 'transparent';
+  border-bottom: 5px solid #000;
+}
+.buckaroo_img_div {
+  padding-top: 0px;
+  width: 60%;
+  display: block;
+  margin: auto;
+  
+}
+.left_said_contenet {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  
+  
+}
+.left_said_icon {
+  
+  width: 70px;
+  /* height: 60px; */
+  border-radius: 50%;
+  margin: 0px 0px;
+  border: none;
+  outline: none;
+  background: transparent;
+  margin: 3px;
+  
+}
+
+
+/* .shutImage{
+  width:75%;
+
+} */
+
+/*--- video--- */
+.video {
+  background: 'transparent';
+  border-bottom: 5px solid #000;
+  /* background-color: red; */
+  /* overflow: hidden; */
+}
+/* .video_container {
+  width: 100%;
+  height: 720;
+  border-radius: 24px;
+} */
+
+.video_container2 {
+  /* border: 3px solid black; */
+  width: 100%;
+  height: 720;
+
+  border-radius: 24px;
+}
+
+.video_container3 {
+  width: 100%;
+  height: 720;
+}
+/*--- Animation--- */
+
+.Animation {
+  background: 'transparent';
+  border-bottom: 3px solid #000;
+}
+.Animation_componet {
+  width: 100%;
+  height: 200px;
+  background: rgb(249, 255, 85);
+  border-radius: 26px;
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* STORY */
+
+.STORY {
+  background: 'transparent';
+  padding-top: 20px;
+  border-bottom: 5px solid #000;
+}
+
+.STORY_heding {
+  font-size: 60px;
+  text-align: center;
+  padding: 20px 0;
+  font-weight: 700;
+  font-family: "Cubano";
+}
+/* FRENS */
+.FRENS {
+  background: 'transparent';
+  padding-top: 20px;
+  border-bottom: 3px solid #000;
+}
+.FRENS_btn {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  position: absolute;
+  top: 19.5%;
+  left: -3.5%;
+  border: none;
+  outline: none;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.FRENS_text_div {
+  border: 2px solid #000;
+  height: 100%;
+  background: #fff;
+  position: relative;
+}
+.FRENS_inner_div1 {
+  border: 2px solid #000;
+  /* background: rgb(255, 0, 249); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.FRENS_inner_div {
+  border: 2px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* dream_team */
+.dream_team {
+  background: 'transparent';
+  padding-top: 20px;
+  border-bottom: 5px solid #000;
+}
+.FAQ {
+  background: 'transparent';
+  padding-top: 20px;
+  border-bottom: 5px solid #000;
+}
+.team_img {
+  width: 290px;
+  height: 290px;
+  border-radius: 50%;
+  /* border: 2px solid #000; */
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  overflow: hidden;
+  /* background: rgb(255, 0, 249); */
+}
+
+/* .card1{
+background: #BAE6E9;
+}
+
+.card2{
+  background: #8991FE;
+  }
+
+.card3{
+background: #BCDBF7;
+}
+
+.card4{
+  background: #FFD337;
+  }
+
+  .card5{
+    background: #A4E78A;
+    }
+
+    .card6{
+      background: #F6AFC1;
+      } */
+
+.team_img img {
+  width: 280px !important;
+  height: auto;
+}
+/* ACD */
+.accordion-button::after {
+  display: none;
+}
+.accordion-item {
+  background-color: transparent !important;
+  border: transparent !important;
+  color: #000 !important;
+}
+.accordion-header button {
+  background-color: transparent !important;
+  border: transparent !important;
+  color: #000 !important;
+  outline: none;
+}
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+@media only screen and (max-width: 12000px) {
+  
+  .video {
+    padding:50px;
+  }
+  /* .marquee {
+    width: 100%;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 37px;
+    background: 'transparent';
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    border-top: 3px solid #000;
+  } */
+  h6 {
+    font-size: 30px !important;
+    font-family: "Cubano";
+  }
+  h4 {
+    font-size: 25px !important;
+  }
+  .video_container {
+    width: 100%;
+    height: 400px;
+  }
+  .FRENS_text_div {
+    border: 2px solid #000;
+    height: auto;
+    background: #fff;
+    position: relative;
+  }
+  .team_img {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    /* border: 2px solid #000; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    overflow: hidden;
+    /* background: rgb(255, 0, 249); */
+  }
+  .team_img img {
+    width: 280px !important;
+    height: auto;
+  }
+  .rollButton {
+    /* marginLeft:'43vw'marginTop:'10vw',marginRight:'auto',height:'12vw',width:'12vw',zIndex:99 */
+    margin-left: 47vw;
+    margin-top: 10vw;
+    margin-right: auto;
+    height: 9vw;
+    width: 9vw;
+    z-index: 99;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .main{
+    border-right: 5px solid #000
+  }
+
+
+  
+  .video {
+    padding:20px;
+    border-right: 5px solid #000
+  }
+
+  .STORY{
+    border-right: 5px solid #000
+  }
+
+  .dream_team{
+    border-right: 5px solid #000
+  }
+
+  .FAQ{
+    border-right: 5px solid #000
+  }
+  /* .marquee {
+    width: 100%;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 33px;
+    background: 'transparent';
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    border-top: 3px solid #000;
+  } */
+  .rollButton {
+    /* marginLeft:'43vw'marginTop:'10vw',marginRight:'auto',height:'12vw',width:'12vw',zIndex:99 */
+    margin-left: 44vw;
+    margin-top: 9vw;
+    margin-right: auto;
+    height: 10vw;
+    width: 10vw;
+    z-index: 99;
+  }
+  h1,
+  h2,
+  h3 {
+    font-size: 28px !important;
+  }
+  .nav-link {
+    font-family: "Cubano";
+    /* color: #000 !important; */
+    font-weight: 800;
+    font-size: 16px;
+    
+  }
+  .Animation_componet {
+    height: 300px;
+  }
+  .STORY_heding {
+    font-size: 35px !important;
+    font-family: "Cubano";
+  }
+  .shutitText{
+    margin-left:30px;
+    margin-right:30px;
+
+  }
+  h4{
+    font-size: 12px !important;
+    font-family: "Cubano";
+  }
+  h5,
+  h6 {
+    font-size: 20px !important;
+    font-family: "Cubano";
+  }
+
+  p {
+    font-size: 14px !important;
+    font-family: "Cubano";
+  }
+
+  h4.text {
+    font-size: 25px !important;
+  }
+
+  .hedar_img {
+    width: 40px;
+    margin-left: -18px;
+  }
+  .buckaroo_img_div {
+    padding-top: 50px;
+  }
+  .left_said_contenet {
+    position: absolute;
+    left: 7px;
+    bottom: 10px;
+    margin-bottom: 0px;
+    
+  }
+  .left_said_icon {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 3px 0px;
+    /* border: none; */
+    /* background-color: red; */
+    outline: none;
+    background: 'transparent';
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .twitterImg{
+    width:30px;
+    height:30px;
+  }
+ 
+  .video_container {
+    width: 100%;
+    height: 300px;
+  }
+  .team_img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* border: 2px solid #000; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    overflow: hidden;
+    /* background: rgb(255, 0, 249); */
+  }
+  .team_img img {
+    width: 120px;
+    height: auto;
+  }
+  .nav-link {
+    /* padding: 15px !important; */
+    padding:10px !important;
+    
+  }
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* background of the scrollbar except button or resizer */
+.scrollbar {
+  scroll-behavior: smooth;
+}
+.scrollbar::-webkit-scrollbar-track {
+  background: 'transparent';
+}
+.scrollbar::-webkit-scrollbar-track:hover {
+  background: 'transparent';
+}
+
+/* scrollbar itself */
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 115, 218, 0.9);
+  border-radius: 16px;
+}
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #a0a0a5;
+}
+
+.scrollbar::-webkit-scrollbar-button {
+  display: none;
+}
+
+/* div box */
+.scrollbar {
+  height: 100vh;
+  width: 100vw;
+  background: 'transparent';
+  /* overflow-y: scroll; */
+  overflow-y: visible;
+  /* scrollbar-color: red; */
+  /* scrollbar-color: revert; */
+}
+.overflow {
+  min-height: 100vh;
+  background: 'transparent';
+}

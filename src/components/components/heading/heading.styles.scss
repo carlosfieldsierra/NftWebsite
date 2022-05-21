@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'MyFont';
+	src: local('MyFont'), url(../../auth/css/Cubano.ttf) format('truetype');
+  }
+
+.font-face-gm {
+	-webkit-text-stroke: 2px black;
+}
